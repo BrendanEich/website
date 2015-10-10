@@ -1,0 +1,28 @@
+{
+  "name": "brave-webiste",
+  "version": "0.0.1",
+  "description": "Amazing website.",
+  "main": "server.js",
+  "scripts": {
+    "start": "./node_modules/.bin/babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brave/brave-webiste.git"
+  },
+  "author": "",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/brave/brave-webiste/issues"
+  },
+  "homepage": "https://github.com/brave/brave-webiste",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "hapi": "^10.0.0",
+    "hapi-async-handler": "^1.0.3",
+    "inert": "^3.0.1"
+  },
+  "engines": {
+    "node": "^4.1.0"
+  }
+}
